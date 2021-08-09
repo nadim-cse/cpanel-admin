@@ -1,0 +1,254 @@
+body{
+    margin: 0;
+    background-color: #FAFAFA;
+    font-family: 'Poppins', sans-serif;
+}
+li > a:after {
+    content: '';
+    display: block;
+    height: 2.5px;
+    background: black;
+    transform: scaleX(0);
+    margin-top: 9px;
+    transition: transform .3s;
+}
+li > a:hover:after{
+    transform: scaleX(1);
+    transition: transform .3s;
+}
+.menu-bar{
+    padding-top: 20px;
+}
+.intro-header{
+    padding-top: 12%;
+    padding-bottom: 5%;
+}
+.intro-header-login{
+    padding-top: 8%;
+}
+.free-consultation{
+    background-color: black;
+    color: white !important;
+    border: 1px solid black;
+}
+.get-connected:hover , .btn-portfolio:hover , .explore-services:hover{
+    background-color: black;
+    color: white !important;
+    border: 1px solid black;
+}
+.backdrop {
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+}
+/* Service */
+.service-card{
+    font-size: 16px;
+}
+.our-service h6 {
+    background: #585C5F none repeat scroll 0 0;
+    content: "";
+    height: 1px;
+    position: absolute;
+    width: 45px;
+}
+.our-service h6 {
+    position: relative;
+}
+.our-service h4{
+    font-size: 16px;
+}
+.our-service h2{
+    font-size: 48px;
+}
+.product-card:hover , .brand-card:hover , .brand-card:hover , .digital-card:hover , 
+.consultancy-card:hover , .web-development:hover , .managed-hosting:hover , 
+.mobile-development:hover , .wordpress-development:hover , .eCommerce-solutions:hover{
+    background: black !important;
+    color:white;
+    transition: all 0.3s ease-in-out 0s;
+}
+/* Service end*/
+.android-img {
+    text-align: right;
+}
+.specialize-content{
+    font-size: 14px;
+    color: #6C6C6C;
+}
+.specialize h1{
+    font-size: 28px; 
+    line-height: 38.84px;
+}
+.item:hover {
+    background: black;
+    box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+    color: white;
+}
+.item i {
+    background: #fff none repeat scroll 0 0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    color: #000000;
+    font-size: 15px;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    text-align: center;
+    width: 40px;
+    z-index: 1;
+    transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -ms-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    margin-bottom: 25px;
+}
+.about-us{
+   background-color: #F8F8F8;
+}
+.page-content-body{
+    background-color: #f8f8f8e5;
+}
+.about-us h6 {
+    background: #585C5F none repeat scroll 0 0;
+    content: "";
+    height: 1px;
+    position: absolute;
+    width: 45px;
+}
+.about-us h6 {
+    position: relative;
+}
+.about-us-img img{
+    width: 477px;
+    height:380px;
+}
+.our-profile h2{
+    font-size: 22px;
+    font-weight: 700;
+}
+.our-profile p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.trusted-clients li {
+    text-decoration: none;
+    list-style: none;
+    margin-right: 50px;
+}
+.trusted-clients h2{
+    font-size: 20px;
+}
+.footer{
+    background-color: #F1F1F1;
+}
+.footer li{
+   list-style: none;
+}
+.country-flag img{
+    padding-top: 5px;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.company ul{
+    margin-left: -30px;
+}
+.company p a{
+    text-decoration: none;
+    color: black;
+}
+.company p {
+    font-size: 16px;
+}
+.fa-phone-square-alt{
+    padding-top: 3px;
+}
+/* Contact section start */
+.contact {
+    background-color: #F8F8F8;
+}
+.section-title h2 {
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    position: relative;
+}
+.contact .info-box {
+    color: #444444;
+    text-align: center;
+    box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+    padding: 20px 0 30px 0;
+    background: #fff;
+}
+.contact .info-box i {
+    font-size: 32px;
+    color: black;
+    border-radius: 50%;
+    padding: 8px;
+}
+.fa-phone-volume {
+    transform: rotate(-45deg);
+}
+.contact .contact-form {
+    box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+    padding: 30px;
+    background: #fff;
+}
+/* Contact section end*/
+.cookie{width:100%;padding:20px;background:rgb(231, 231, 231);bottom:0;position:fixed;}
+
+@media only screen and (max-width:425px) {
+    .intro-header{
+        padding-top: 20% !important;
+        text-align: center;
+    }
+    .hero-title{
+        padding-bottom: 5%;
+    }
+    .banner-img{
+        padding-top: 10%;
+    }
+    .partner{
+        padding-bottom: 25px;
+    }
+    .btn-portfolio {
+        margin-top: 5px !important;
+    }
+    .our-service{
+        margin-top: 35px !important;
+    }
+    .about-us-img img{
+       padding-top: 15px;
+       width: 277px;
+       height:180px;
+    }
+}
+@media only screen and (max-width: 1024px) and (min-width: 1024px)  {
+    .service-card {
+        font-size: 11px !important;
+    }
+    .about-us-img img {
+        width: 440px;
+        height: 300px;
+    }
+}
+@media only screen and (max-width: 768px) and (min-width: 768px)  {
+    .service-column {
+        width: 100%;
+    }
+    .about-us-img img {
+        width: 300px;
+        height: 250px;
+    }
+    .border-lg-0 {
+        border: 0 !important;
+    }
+}
+@media (min-width: 992px)
+{
+    .border-lg-0 {
+        border: 0 !important;
+    }
+}
