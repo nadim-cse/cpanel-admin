@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="RootSoft, IT, website, hosting, web, wordpress, plugin, application, design, bulk, sms, domain, registration, ecommerce, consulting, mobile, app, sylhet, Bangladesh, london, usa">
+    <meta name="description" content="Website and web application wordpress developer hosting server SMS domain registration e-commerce mobile app Service at Sylhet Bangladesh">
+    <title>| File Manager | RootSoft IT</title>
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/f9bdb0c80c.js" crossorigin="anonymous"></script>
+    <!-- slick slider css -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-light navbar-expand-md fixed-top py-3  mb-5" data-navbar-on-scroll="data-navbar-on-scroll">
+       <div class="container">
+          <a href="../user/dashboard.html" class="d-flex align-items-center text-dark text-decoration-none">
+          <img src="../img/logo_black.png" width="200" height="26">
+          </a>
+          <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0 navbar-list" id="navbar">
+             <ul class="navbar-nav ms-auto menu-bar">
+                <li class="nav-item">
+                  <a class="nav-link active" href="../user/dashboard.html"  style="color: black"><i class="fas fa-chart-pie"></i> Dashboard</a>
+              </li>
+                <li class="nav-item">
+                   <a class="nav-link active" href="../user/user-management.html"  style="color: black"><i class="fas fa-users"></i> User Management</a>
+                </li>
+                <li class="nav-item">
+                   <a class="nav-link" href="../user/hosting-management.html"  style="color: black"><i class="fas fa-list"></i> Hosting Management</a>
+                </li>
+               
+             </ul>
+             <ul class="navbar-nav ms-auto">
+                <div class="dropdown">
+                   <button class="btn border border-dark ps-4 pe-4 pt-2 pb-2 get-connected dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  Basic User
+                   </button>
+                   <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item" href="#">Profile</a></li>
+                      <li><a class="dropdown-item" href="index.html">Logout</a></li>
+                   </ul>
+                </div>
+             </ul>
+          </div>
+       </div>
+    </nav>
+ </header>
+      <main>
+         <section>
+            <div class="container-fluid intro-header ">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="mt-1 pb-md-4 mx-auto">
+                        <h4 class="mb-3 fw-normal hero-title text-left"><i class="fas fa-list"></i> File manager</h4>
+                       <div class="row mb-2">
+                         <div class="col-md-4"><p>Directory List</p></div>
+                         <div class="col-md-8">
+                           <!-- <a href="#" class="btn btn-success float-end">Add user +</a> -->
+                           <button type="button" class="btn free-consultation float-end" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                            Add new plan +
+                          </button>
+                          </div>
+                       </div>
+                        <div class="card">
+                           <div class="card-body">
+                            
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+      <!-- Modal start -->
+      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">Add new hosting plan</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label for="plan_name" class="form-label">Plan name</label>
+                  <input type="text" class="form-control" id="plan_name" required>
+                 
+                </div>
+                <div class="mb-3">
+                  <label for="storage" class="form-label">Storage</label>
+                  <input type="text" class="form-control" id="storage"required>
+                 
+                </div>
+                <div class="mb-3">
+                  <label for="cpu" class="form-label">CPU</label>
+                  <input type="text" class="form-control" id="cpu" required>
+                 
+                </div>
+                <div class="mb-3">
+                  <label for="ram" class="form-label">RAM</label>
+                  <input type="email" class="form-control" id="ram" required>
+                 
+                </div>
+                <div class="mb-3">
+                  <label for="bandwidth" class="form-label">Bandwidth</label>
+                  <input type="text" class="form-control" id="bandwidth" required>
+                 
+                </div>
+                <div class="mb-3">
+                  <label for="hosting_plan_type" class="form-label">Hosting plan type</label>
+                  <select class="form-select" aria-label="Hosting Plan" id="hosting_plan_type" required>
+                    <option selected>-- Select a hosting plan type--</option>
+                    <option value="1">Shared Cloud</option>
+                    <option value="2">Cloud</option>
+                    <option value="3">Dedicated</option>
+                    <option value="4">Wordpress</option>
+                  </select>
+                </div>
+              
+              
+                <div class="mb-3">
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+               
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal end -->
+      <!-- jquery -->
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+      <script type="text/javascript" src="js/theme.js"></script>
+      <script type="text/javascript" src="js/script.js"></script>
+     
+   </body>
+</html>
